@@ -1,0 +1,60 @@
+body {
+  background-color: whitesmoke;
+}
+
+.directory {
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px #cfcfcf;
+  height: 110px;
+}
+
+.directory h1 {
+  padding-top: 15px;
+  color: #0f2573;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  width: 300px;
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px #cfcfcf;
+}
+
+.imgcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-bottom: 1px solid rgb(234, 234, 234);
+  max-height: 150px;
+  border-radius: 5px;
+}
+
+.imgcontainer img {
+  height: 175px;
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.card h2 {
+  margin: 20px 10px;
+}
+
+.card p {
+  margin: 10px;
+}
+
+.card .des {
+  color: rgb(119, 119, 119);
+}
